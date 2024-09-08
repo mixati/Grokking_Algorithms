@@ -1,6 +1,6 @@
 package search
 
-func Binary_search(arr []int, num int) int {
+func BinarySearch(arr []int, num int) int {
 	low := 0
 	high := len(arr)
 	for low <= high {
