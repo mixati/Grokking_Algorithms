@@ -12,6 +12,7 @@ func findSmallest(arr []int) int {
 	return smallest_id
 }
 
+/* Сортировка выбором */
 func SelectionSort(arr []int) []int {
 	newArr := make([]int, len(arr))
 	arr_size := len(arr)

@@ -1,5 +1,6 @@
 package search
 
+/* Бинарный поиск */
 func BinarySearch(arr []int, num int) int {
 	low := 0
 	high := len(arr)

@@ -17,5 +17,5 @@ func main() {
 	// СОРТИРОВКА ВЫБОРОМ
 	var arr []int = []int{1, -5, 15, 6, 4, 3, 0}
 	ans := sort.SelectionSort(arr)
-	fmt.Println(ans)
+	fmt.Println(ans, "\n", arr)
 }
